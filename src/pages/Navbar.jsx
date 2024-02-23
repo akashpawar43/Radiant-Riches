@@ -15,7 +15,7 @@ export default function Navbar() {
                                 alt="image"
                             />
                         </div>
-                        <ul className=" flex flex-row text-gray-400 gap-4">
+                        <ul className=" flex flex-row text-gray-400 gap-10">
                             <li>Categories</li>
                             <li>Website Builders</li>
                             <li>Today's deals</li>
