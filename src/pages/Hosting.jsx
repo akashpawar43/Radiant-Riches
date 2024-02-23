@@ -82,8 +82,8 @@ export default function Hosting() {
                                 </div>
                                 <div className="flex flex-col md:gap-10 gap-[72px] items-center justify-start mb-[9px] md:ml-[0] ml-[25px] w-1/4 md:w-full">
                                     <div className="bg-gray-50_01 flex flex-col items-center justify-start p-[3px] rounded-bl-[12px] rounded-br-[12px] w-[59%] md:w-full">
-                                        <div className="flex flex-col items-end justify-start mb-4 w-[59%] md:w-full">
-                                            <div className="flex flex-row items-start justify-end w-[79%] md:w-full">
+                                        <div className="flex flex-col items-center justify-center mb-4 w-[59%] md:w-full">
+                                            <div className="flex flex-row items-start justify-center text-center w-[79%] md:w-full">
                                                 <Text
                                                     className="mt-[7px] md:text-3xl sm:text-[28px] text-[32px] text-light_blue-900"
                                                     size="txtInterRegular32"
@@ -335,8 +335,8 @@ export default function Hosting() {
                             </div>
                             <div className="flex flex-col md:gap-10 gap-[72px] items-center justify-start mb-[9px] md:ml-[0] ml-[25px] w-1/4 md:w-full">
                                 <div className="bg-gray-50_01 flex flex-col items-center justify-start p-[3px] rounded-bl-[12px] rounded-br-[12px] w-[59%] md:w-full">
-                                    <div className="flex flex-col items-end justify-start mb-4 w-[59%] md:w-full">
-                                        <div className="flex flex-row items-start justify-end w-[79%] md:w-full">
+                                    <div className="flex flex-col items-center justify-center mb-4 w-[59%] md:w-full">
+                                        <div className="flex flex-row items-start justify-center w-[79%] md:w-full">
                                             <Text
                                                 className="mt-[7px] md:text-3xl sm:text-[28px] text-[32px] text-light_blue-900"
                                                 size="txtInterRegular32"
