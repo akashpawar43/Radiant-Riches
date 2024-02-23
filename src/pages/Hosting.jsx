@@ -556,7 +556,7 @@ export default function Hosting() {
                                     </Text>
                                 </div>
                                 <Button
-                                    className="cursor-pointer mb-0.5 min-w-[232px] sm:mt-0 mb-4 text-base text-center"
+                                    className="cursor-pointer min-w-[232px] sm:mt-0 mb-4 text-base text-center"
                                     shape="round"
                                     size="md"
                                 >
