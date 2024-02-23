@@ -4,7 +4,7 @@ import { Button, Img, Line, List, SelectBox, Text } from "components";
 export default function Nav2() {
     return (
         <>
-            <div className="flex md:flex-col flex-row gap-2 mb-2 items-center justify-between w-[70rem]">
+            <div className="flex md:flex-col flex-row gap-2 mb-2 items-center justify-between w-[80%]">
                 <Text
                     className="bg-white-A700 h-9 justify-center pl-4 sm:pr-5 pr-[35px] py-[9px] rounded-[12px] text-blue_gray-700 text-sm w-[105px]"
                     size="txtInterRegular14Bluegray700"

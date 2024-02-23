@@ -20,42 +20,44 @@ export default function Update() {
                     </Text>
                     <Line className="bg-gray-300 h-px mt-3 w-full" />
                     <div className="flex md:flex-row flex-row md:gap-5 items-center justify-start text-center mt-[9px] w-full">
-                        <Img
-                            className="h-5 md:mt-0 mt-[5px] w-5"
-                            src="images/img_image_blue_gray_600.svg"
-                            alt="image_Ten"
-                        />
-                        <Text
-                            className="ml-2 md:ml-[0] md:mt-0 mx-[7px] text-blue_gray-700 text-sm"
-                            size="txtInterRegular14Bluegray700"
-                        >
-                            Last Updated
-                        </Text>
-                        <Text
-                            className="md:ml-[0] ml-[5px] md:mt-0 mx-[7px] text-blue_gray-700 text-sm"
-                            size="txtInterRegular14Bluegray700"
-                        >
-                            -
-                        </Text>
-                        <Text
-                            className="md:ml-[0] ml-[9px] md:mt-0 mx-2 text-[13px] text-blue_gray-700"
-                            size="txtInterRegular13"
-                        >
-                            February 22, 2020
-                        </Text>
-                        <Img
-                            className="h-5 ml-5 md:ml-[0] md:mt-0 mx-[5px] w-5"
-                            src="images/img_image_blue_gray_600_20x20.svg"
-                            alt="image_Eleven"
-                        />
-                        <Text
-                            className="ml-2 md:ml-[0] md:mt-0 mx-[7px] text-blue_gray-700 text-sm"
-                            size="txtInterRegular14Bluegray700"
-                        >
-                            Advertising Disclosure
-                        </Text>
+                        <div className=' flex flex-row justify-start items-center w-full'>
+                            <Img
+                                className="h-5 md:mt-0 mt-[5px] w-5"
+                                src="images/img_image_blue_gray_600.svg"
+                                alt="image_Ten"
+                            />
+                            <Text
+                                className="ml-2 md:ml-[0] md:mt-0 mx-[7px] text-blue_gray-700 text-sm"
+                                size="txtInterRegular14Bluegray700"
+                            >
+                                Last Updated
+                            </Text>
+                            <Text
+                                className="md:ml-[0] ml-[5px] md:mt-0 mx-[7px] text-blue_gray-700 text-sm"
+                                size="txtInterRegular14Bluegray700"
+                            >
+                                -
+                            </Text>
+                            <Text
+                                className="md:ml-[0] ml-[9px] md:mt-0 mx-2 text-[13px] text-blue_gray-700"
+                                size="txtInterRegular13"
+                            >
+                                February 22, 2020
+                            </Text>
+                            <Img
+                                className="h-5 ml-5 md:ml-[0] md:mt-0 mx-[5px] w-5"
+                                src="images/img_image_blue_gray_600_20x20.svg"
+                                alt="image_Eleven"
+                            />
+                            <Text
+                                className="ml-2 md:ml-[0] md:mt-0 mx-[7px] text-blue_gray-700 text-sm"
+                                size="txtInterRegular14Bluegray700"
+                            >
+                                Advertising Disclosure
+                            </Text>
+                        </div>
                         <SelectBox
-                            className="md:flex-1 md:ml-[0] ml-96 text-blue_gray-500 text-center text-sm w-[12%] md:w-full"
+                            className="md:flex-1 md:ml-[0] text-blue_gray-500 text-center text-sm w-[12%] md:w-full"
                             placeholderClassName="text-blue_gray-500"
                             indicator={
                                 <Img

@@ -10,7 +10,7 @@ export default function Footer() {
     return (
         <>
             <footer className=" bg-blue_gray-900 bottom-[0] flex flex-col inset-x-[0] items-start justify-start mx-auto p-14 md:px-10 sm:px-5 w-full">
-                <div className="flex flex-col mb-[70px] w-[70rem] mx-auto justify-start items-start">
+                <div className="flex flex-col mb-[70px] max-w-7xl w-[70rem] mx-auto justify-start items-start">
                     <div className="bg-white dark:bg-gray-900 w-full">
                         <div className="mx-auto w-full max-w-screen-xl flex flex-row justify-between">
                             <div className="grid grid-cols-2 gap-40 py-6 lg:py-8 md:grid-cols-4">
@@ -54,7 +54,7 @@ export default function Footer() {
                             </div>
                             <div className=' flex justify-center items-center w-[40%]'>
                                 <SelectBox
-                                    className="sm:flex-1 text-[13px] text-blue_gray-100 text-left w-[24%] sm:w-full"
+                                    className="sm:flex-1 text-[13px] text-blue_gray-100 text-left mb-8 w-[24%] sm:w-full"
                                     placeholderClassName="text-blue_gray-100"
                                     indicator={
                                         <Img
