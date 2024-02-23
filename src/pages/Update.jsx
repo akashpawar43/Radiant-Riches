@@ -10,7 +10,7 @@ export default function Update() {
     ];
     return (
         <>
-            <div className="absolute bg-gray-50 flex flex-col inset-x-[0] items-center justify-end mx-auto py-2.5 top-[0] w-[65%]">
+            <div className=" bg-gray-50 flex flex-col inset-x-[0] items-center justify-end py-2.5 top-[0]">
                 <div className="flex flex-col items-start justify-start mt-[27px] w-full">
                     <Text
                         className="text-5xl sm:text-[38px] md:text-[44px] text-blue_gray-800"
@@ -71,6 +71,7 @@ export default function Update() {
                             placeholder="Top Relevant"
                         />
                     </div>
+                    <Line className="bg-gray-300 h-px mt-3 w-full" />
                 </div>
             </div>
         </>

@@ -10,7 +10,7 @@ export default function Deals() {
 
     return (
         <>
-            <div className="flex sm:flex-col flex-row sm:gap-10 items-start justify-between md:ml-[0] ml-[30px] mt-[85px] w-[85%] md:w-full">
+            <div className="flex sm:flex-col flex-row sm:gap-10 items-start justify-between md:ml-[0] mt-[85px] w-[85%] md:w-full">
                 <Text
                     className="mb-[7px] md:text-3xl sm:text-[28px] text-[32px] text-blue_gray-800"
                     size="txtInterRegular32Bluegray800"
@@ -24,11 +24,11 @@ export default function Deals() {
                 />
             </div>
             <List
-                className="sm:flex-col flex-row gap-[22px] grid sm:grid-cols-1 md:grid-cols-2 grid-cols-3 justify-center md:ml-[0] ml-[38px] mt-3.5 w-[97%]"
+                className="sm:flex-col flex-row gap-[22px] grid sm:grid-cols-1 md:grid-cols-2 grid-cols-3 justify-center mt-3.5 w-full"
                 orientation="horizontal"
             >
-                {data.map((item) =>
-                    <div className="bg-white-A700 flex flex-col items-center justify-end p-5 rounded-[12px] w-full">
+                {data.map((item, i) =>
+                    <div key={i} className="bg-white-A700 flex flex-col items-center justify-end p-5 rounded-[12px] w-full">
                         <div className="flex flex-col gap-[59px] items-center justify-start mt-[17px] w-full">
                             <Img
                                 className="h-[103px] md:h-auto object-cover w-[49%]"
