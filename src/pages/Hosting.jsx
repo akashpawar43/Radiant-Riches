@@ -341,7 +341,7 @@ export default function Hosting() {
                                                 className="mt-[7px] md:text-3xl sm:text-[28px] text-[32px] text-light_blue-900"
                                                 size="txtInterRegular32"
                                             >
-                                                9.8
+                                                9.3
                                             </Text>
                                             <Img
                                                 className="h-2.5 ml-0.5 w-2.5"
