@@ -1,5 +1,6 @@
 import React from 'react'
 import { Button, Img, Line, List, SelectBox, Text } from "components";
+import { data } from 'autoprefixer';
 
 export default function Footer() {
     const unitedStatesOptionsList = [
@@ -7,6 +8,19 @@ export default function Footer() {
         { label: "Option2", value: "option2" },
         { label: "Option3", value: "option3" },
     ];
+    const categories = [
+        { link: "Web Builder" },
+        { link: "Hosting" },
+        { link: "Data Center" },
+        { link: "Robotic-Automation" },
+    ];
+    const contact = [
+        { link: "Contact" },
+        { link: "Privacy Policy" },
+        { link: "Terms Of Service" },
+        { link: "Categories" },
+        { link: "About" },
+    ]
     return (
         <>
             <footer className=" bg-blue_gray-900 bottom-[0] flex flex-col inset-x-[0] items-start justify-start mx-auto p-14 md:px-10 sm:px-5 w-full">
@@ -15,40 +29,23 @@ export default function Footer() {
                         <div className="mx-auto w-full max-w-screen-xl flex flex-row justify-between">
                             <div className="grid grid-cols-2 gap-40 py-6 lg:py-8 md:grid-cols-4">
                                 <div>
-                                    <h2 className="mb-6 text-sm text-gray-300 uppercase">Company</h2>
-                                    <ul className="text-gray-500 dark:text-gray-400 font-medium">
-                                        <li className="mb-4">
-                                            <a href="#" className=" hover:underline">Web Builder</a>
-                                        </li>
-                                        <li className="mb-4">
-                                            <a href="#" className="hover:underline">Hosting</a>
-                                        </li>
-                                        <li className="mb-4">
-                                            <a href="#" className="hover:underline">Data Center</a>
-                                        </li>
-                                        <li className="mb-4">
-                                            <a href="#" className="hover:underline">Robotic-Automation</a>
-                                        </li>
-                                    </ul>
+                                    <h2 className="mb-6 text-sm text-gray-300 uppercase">CATEGORIES</h2>
+                                    {categories.map((data, i) => (
+                                        <ul key={i} className="text-gray-500 dark:text-gray-400 font-medium">
+                                            <li className="mb-4">
+                                                <a href="#" className=" hover:underline">{data.link}</a>
+                                            </li>
+                                        </ul>
+                                    ))}
                                 </div>
                                 <div>
                                     <h2 className="mb-6 text-sm text-gray-300 uppercase dark:text-white">Contact</h2>
                                     <ul className="text-gray-500 dark:text-gray-400 font-medium">
-                                        <li className="mb-4">
-                                            <a href="#" className="hover:underline">Contact</a>
-                                        </li>
-                                        <li className="mb-4">
-                                            <a href="#" className="hover:underline">Privacy Policy</a>
-                                        </li>
-                                        <li className="mb-4">
-                                            <a href="#" className="hover:underline">Term Of Service</a>
-                                        </li>
-                                        <li className="mb-4">
-                                            <a href="#" className="hover:underline">Categories</a>
-                                        </li>
-                                        <li className="mb-4">
-                                            <a href="#" className="hover:underline">About</a>
-                                        </li>
+                                        {contact.map((data, i) => (
+                                            <li key={i} className="mb-4">
+                                                <a href="#" className="hover:underline">{data.link}</a>
+                                            </li>
+                                        ))}
                                     </ul>
                                 </div>
                             </div>

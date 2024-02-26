@@ -3,6 +3,11 @@ import React from 'react';
 import { Button, Img, Line, List, SelectBox, Text } from "components";
 
 export default function Navbar() {
+    const nav = [
+        { title: "Categories" },
+        { title: "Website Builders" },
+        { title: "Today's deals" },
+    ]
     return (
         <>
             <header className="bg-blue_gray-900 w-full">
@@ -16,9 +21,9 @@ export default function Navbar() {
                             />
                         </div>
                         <ul className=" flex flex-row text-gray-400 gap-10">
-                            <li>Categories</li>
-                            <li>Website Builders</li>
-                            <li>Today's deals</li>
+                            {nav.map((item, i) => (
+                                <li key={i}>{item.title}</li>
+                            ))}
                         </ul>
                     </div>
                 </div>
