@@ -83,7 +83,7 @@ export default function Deals() {
                                     </Text>
                                 </div>
                                 <Button
-                                    className="cursor-pointer w-full mt-[13px] text-base text-center"
+                                    className="cursor-pointer w-full mt-[13px] p-2.5 text-base text-center"
                                     shape="round"
                                     size="md"
                                 >

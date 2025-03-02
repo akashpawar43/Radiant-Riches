@@ -16,7 +16,7 @@ const FramePage = () => {
         <Navbar />
         <main>
           <div className="flex flex-col items-center md:px-5 container mx-auto">
-            <div className=" flex flex-col max-w-7xl">
+            <div className=" flex flex-col md:w-full max-w-7xl">
               <Update />
               <Nav2 />
               <Breadcrumbs />

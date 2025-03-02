@@ -12,7 +12,7 @@ export default function Nav2() {
     ];
     return (
         <>
-            <div className="flex md:flex-col flex-row gap-1 mb-2 items-center justify-between w-[70%]">
+            <div className="flex md:flex-row flex-row gap-1 mb-2 items-center justify-between w-[70%]">
                 {nav.map((data, i) => (
                     <Text
                         className="bg-white-A700 h-9 justify-center px-4 sm:pr-5 py-[9px] rounded-[12px] text-blue_gray-700 text-sm"

@@ -103,7 +103,7 @@ export default function Hosting() {
                                             </div>
                                         </div>
                                         <Button
-                                            className="cursor-pointer min-w-[232px] text-base text-center"
+                                            className="cursor-pointer min-w-[232px] p-2.5 text-base text-center"
                                             shape="round"
                                             size="md"
                                         >
@@ -316,7 +316,7 @@ export default function Hosting() {
                                     </Text>
                                 </div>
                                 <Button
-                                    className="cursor-pointer min-w-[232px] sm:mt-0 mb-4 text-base text-center"
+                                    className="cursor-pointer min-w-[232px] p-2.5 sm:mt-0 mb-4 text-base text-center"
                                     shape="round"
                                     size="md"
                                 >

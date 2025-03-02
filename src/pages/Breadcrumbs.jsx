@@ -11,7 +11,7 @@ export default function Breadcrumbs() {
     ]
     return (
         <>
-            <div className="flex sm:flex-col flex-row sm:gap-5 items-center justify-start md:ml-[0] ml-[5px] mt-2 mb-4 md:w-full">
+            <div className="flex sm:flex-row flex-row sm:gap-5 items-center justify-start md:ml-[0] ml-[5px] mt-2 mb-4 md:w-full">
                 {breadcrumbs.map((data, i) => (
                     <>
                         <Text
